@@ -1,4 +1,4 @@
-package edu.testes;
+package edu.Testes;
 
 
 public class primeiroPrograma {
