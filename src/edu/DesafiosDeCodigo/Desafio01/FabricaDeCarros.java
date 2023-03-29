@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class FabricaDeCarros {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        //declarar variáveis
         int custoFabrica = scan.nextInt();
         int percentualDistribuidor = scan.nextInt();
         int percentualImpostos = scan.nextInt();
