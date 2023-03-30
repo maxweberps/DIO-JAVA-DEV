@@ -1,6 +1,6 @@
 package edu.DesafiosDeCodigo.Desafio04;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Dragao {
 
