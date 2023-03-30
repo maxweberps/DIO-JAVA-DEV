@@ -10,12 +10,12 @@ public class CalculadoraDeMedias {
         //criou array do tipo string e já inicializou incluindo os elementos
         String[] alunos = {"Camila", "Lucas", "Bruna", "Pedro"};
 
-        double media = calculaMediaDaTurma(alunos);
+        double media = calculaMediaDaTurma(alunos, scan);
 
         System.out.printf("Média da turma %.1f", media);
     }
 
-    public static double calculaMediaDaTurma(String[] alunos) {
+    public static double calculaMediaDaTurma(String[] alunos, Scanner scanner) {
 
         double soma = 0;
         for (String aluno : alunos) {
